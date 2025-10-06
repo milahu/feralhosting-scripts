@@ -1,0 +1,6 @@
+[submodule "qbittorrent-api"]
+	path = qbittorrent-api
+	url = https://github.com/rmartin16/qbittorrent-api
+[submodule "tree-sitter-bencode"]
+	path = tree-sitter-bencode
+	url = https://github.com/Samasaur1/tree-sitter-bencode
