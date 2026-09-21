@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+set -eux
+
+pushd ~/src/milahu/random/
+git pull
+popd
+
+exec python ~/src/milahu/random/\
+ffmpeg/ffmpeg-2ch-m4a.py \
+--slow \
+"$@"
